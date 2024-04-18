@@ -3,7 +3,7 @@ import pytest
 
 def test_fair():
     die = Die()
-    rolls = 100_000
+    rolls = 1_000_000
 
     tally = {i:0 for i in range(1, 7)}
     
